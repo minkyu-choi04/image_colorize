@@ -46,7 +46,37 @@ python train.py --mode inference \
 - `PATH_TO_INPUT`: Path to Input image you want to colorize. Default: `./test_img.jpg`
 - `PATH_TO_OUTPUT`: Path to output image after colorize. Default: `./colorized_img`
 
+A trained model is provided at `trained_model/model_color.pth`. 
 
+
+#### 2-a. Examples
+<p align="center">
+    <img src="results/gray_input.png" width= "300">
+</p>
+<p align=center>
+Gray image given to the colorize model. 
+</p>
+
+<p align="center">
+    <img src="results/colorized_img.png" width= "300">
+</p>
+<p align=center>
+Output colorized image. 
+</p>
+        
+<p align="center">
+    <img src="results/test_img_cool.png" width= "300">
+</p>
+<p align="center">
+Cool temperature image applied to colorized image
+</p>
+
+<p align="center">
+    <img src="results/test_img_warm.png" width= "300">
+</p>
+<p align="center">
+Warm temperature image applied to colorized image
+</p>
 ### 3. Control Color Temperature
 
 Running following code will produce color-controlled two images (warm and cool). Results will be saved in `./results`. 
